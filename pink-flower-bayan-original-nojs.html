@@ -1,0 +1,450 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+  <head><!--{{{-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <!--bayan-tags--><!--{{{-->
+      <head:meta></head:meta>
+      <head:style></head:style>
+      <head:script></head:script>
+      <!--bayan-tags--><!--}}}-->
+      <link href="http://bayanbox.ir/download/5288479852257857761/favicon.ico" rel="shortcut icon">
+  </head><!--}}}-->
+  <body> <!--{{{-->
+    <div class="wrap">
+      <header> <!--{{{-->
+        <div class="blackthemeMainBox container">
+          <h1>
+            <a href="(*blog_link*)">
+              (*blog_title*)
+            </a>
+          </h1>
+          <h2>
+            (*blog_short_description*)
+          </h2>
+        </div>
+      </header> <!--}}}-->
+      <div class="blackthemeMainBox">
+        <nav> <!--{{{-->
+          <div class="menu">
+            <ul class="ulMenu">
+              <li class="menuHome"><a href="/">home</a></li>
+              <li>
+                <a href="javascript:void(0);">web</a>
+                <ul>
+                  <li><a href="/archive/">titles</a></li>
+                  <li><a href="(*rss_link*)">rss</a></li>
+                </ul>
+              </li>
+              <box:daily_links> <!--{{{-->
+                <li>
+                  <a href="javascript:void(0);">link</a>
+                  <ul>
+                    <view:daily_links>
+                      <li>
+                        <a
+                          href="(*link_url*)"
+                          target="_blank"
+                          title="(*link_alt*)"
+                        >
+                          (*link_name*)
+                        </a>
+                      </li>
+                    </view:daily_links>
+                  </ul>
+                </li>
+              </box:daily_links> <!--}}}-->
+              <box:categories> <!--{{{-->
+                <li>
+                  <a href="javascript:void(0)">category</a>
+                  <ul>
+                    <view:categories>
+                      <li>
+                        <a href="(*category_link*)">
+                          (*category_name*)
+                        </a>
+                      </li>
+                    </view:categories>
+                  </ul>
+                </li>
+              </box:categories> <!--}}}-->
+              <box:archive> <!--{{{-->
+                <li>
+                  <a href="javascript:void(0)">archive</a>
+                  <ul>
+                    <view:archive>
+                      <li>
+                        <a href="(*link_url*)">
+                          (*link_name*)
+                        </a>
+                      </li>
+                    </view:archive>
+                  </ul>
+                </li>
+              </box:archive> <!--}}}-->
+              <box:authors> <!--{{{-->
+                <li></li>
+                <li>
+                  <a href="javascript:void(0)">author</a>
+                  <ul>
+                    <view:authors>
+                      <li>
+                        <a href="(*author_link*)">
+                          (*author_name*)
+                        </a>
+                      </li>
+                    </view:authors>
+                  </ul>
+                </li>
+              </box:authors> <!--}}}-->
+              <box:links> <!--{{{-->
+                <li>
+                  <a href="javascript:void(0)">friend</a>
+                  <ul>
+                    <view:links>
+                      <li>
+                        <a href="(*link_url*)" target="_blank" title="(*link_alt*)">
+                          (*link_name*)
+                        </a>
+                      </li>
+                    </view:links>
+                  </ul>
+                </li>
+              </box:links> <!--}}}-->
+              <li class="iconMenu">
+                <a href="javascript:void(0)"
+                  ><span class="menuM">menu</span
+                  ><span class="menuC">close</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="appendMenu"></div>
+        </nav> <!--}}}-->
+        <div class="partWrap"> <!--{{{-->
+          <div class="partRight"> <!--{{{-->
+            <box:post_list> <!--{{{-->
+              <article>
+                <view:post_list>
+                <div class="post">
+                  <h2>
+                    <a href="(*post_link*)">
+                      (*post_title*)
+                    </a>
+                  </h2>
+                  <div class="postData">
+                    <a href="(*post_link*)">+</a>
+                    (*post_date format="%Y/%n/%e"*) | (*post_date format="%H:%M"*) | (*post_author*)
+                  </div>
+                  <div class="postcontent">
+                    (*post_summary*)
+                  </div>
+                  <a href="(*post_link*)" class="continue">continue</a>
+
+                  <div class="postComment"> <!--{{{-->
+                      <div>
+                        <span dir="rtl">
+                          <a href="(*post_link*)#comments">(*post_comment_count*) CM
+                            <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #ea7986;margin-bottom: -.5em;width:1rem;"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
+                          </a>
+                        </span>
+                      </div>
+                  </div> <!--}}}-->
+                </div>
+                </view:post_list>
+              </article>
+            </box:post_list> <!--}}}-->
+            <box:post_detail> <!--{{{-->
+              <article>
+                <div class="post">
+                  <h2>
+                    <a href="(*post_link*)">
+                      (*post_title*)
+                    </a>
+                  </h2>
+
+                  <div class="postData">
+                    <a href="(*post_link*)">+</a>
+                    (*post_date format="%Y/%n/%e"*) | (*post_date format="%H:%M"*) | (*post_author*)
+                  </div>
+                  <div class="postcontent">
+                    (*post_full_content*)
+                  </div>
+
+                  <box:post_tags> <!--{{{-->
+                    <div style="margin-top: 3em;">
+                      <span class="fa fa-thumb-tack"> </span>
+                      <view:post_tags>
+                        <b>
+                          <a href="(*tag_link*)">
+                              (*tag_name*), 
+                          </a>
+                        </b>
+                      </view:post_tags>
+                    </div>
+                  </box:post_tags> <!--}}}-->
+                  <a name="comments"></a>
+                  <div class="postComment" style="margin-bottom: 4em;"> <!--{{{-->
+                      <check:if post_has_comments_section>
+                      <div>
+                        <span dir="rtl">
+                            <a href="(*post_link*)#comments">(*post_comment_count*) CM
+                            <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #ea7986;margin-bottom: -.5em;width:1rem;"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
+                            </a>
+                        </span>
+                      </div>
+                      </check:if>
+                  </div> <!--}}}-->
+                  <!--comment-section--><!--{{{-->
+                  <check:if post_has_comments_section>
+                  <section class="mimr-comment">
+                    <!--comment-list--><!--{{{-->
+                      <box:post_comments>
+                        <view:post_comments> <!--{{{-->
+                          <!--comment-send--><!--{{{-->
+                            <div class="comment-send">
+                              <!--row-first--><!--{{{-->
+                                <div class="comment-send-first">
+                                  <img src="(*comment_avatar*)" alt="(*comment_fullname*)">
+                                  <a href="(*comment_website*)" target="_blank" style="background-color: white;padding: 0 1em;">
+                                    (*comment_fullname*)
+                                  </a>
+                                </div>
+                              <!--row-first--><!--}}}-->
+                              <!--row-second--><!--{{{-->
+                                <div class="comment-send-second">
+                                  (*comment_body*)
+                                </div>
+                              <!--row-second--><!--}}}-->
+                              <!--row-third--><!--{{{-->
+                                <div class="comment-send-third">
+                                  (*comment_date format="%e %B %y"*)
+                                </div>
+                              <!--row-third--><!--}}}-->
+                            </div>
+                          <!--comment-send--><!--}}}-->
+                          <!--comment-reply--><!--{{{-->
+                          <check:if comment_reply>
+                            <div class="comment-send" style="margin-bottom: 5em;">
+                              <!--row-first--><!--{{{-->
+                                <div class="comment-send-first" style="text-align: center; margin-top: -25px; color: white;background-color: #ea7986;border-radius: 1em;">
+                                  پاسخ
+                                </div>
+                              <!--row-first--><!--}}}-->
+                              <!--row-second--><!--{{{-->
+                                <div class="comment-send-second">
+                                  (*comment_reply*)
+                                </div>
+                              <!--row-second--><!--}}}-->
+                              <!--row-third--><!--{{{-->
+                                <div class="comment-send-third">
+                                  (*comment_reply_date format="%e %B %y"*)
+                                </div>
+                              <!--row-third--><!--}}}-->
+                            </div>
+                          </check:if>
+                          <!--comment-reply--><!--}}}-->
+                        </view:post_comments> <!--}}}-->
+                      </box:post_comments>
+                    </check:if>
+                    <!--comment-list--><!--}}}-->
+                    <!--comment-send--><!--{{{-->
+                    <check:if post_has_send_comment>
+                      (*comment_add_form*)
+                    <!--comment-list--><!--}}}-->
+                  </section>
+                  </check:if>
+                  <!--comment-section--><!--}}}-->
+                </div>
+              </article>
+            </box:post_detail> <!--}}}-->
+            <box:page_detail> <!--{{{-->
+              <article>
+                <div class="post">
+                  <h2>
+                    <a href="(*page_link*)">
+                      (*page_title*)
+                    </a>
+                  </h2>
+
+                  <div class="pagecontent">
+                    (*page_content*)
+                  </div>
+
+                  <a name="comments"></a>
+                  <div class="postComment" style="margin-bottom: 4em;"> <!--{{{-->
+                      <check:if page_has_comments_section>
+                      <div>
+                        <span dir="rtl">
+                            <a href="(*page_link*)#comments">(*page_comment_count*) CM</a>
+                        </span>
+                      </div>
+                      </check:if>
+                  </div> <!--}}}-->
+                  <!--comment-section--><!--{{{-->
+                  <check:if page_has_comments_section>
+                  <section class="mimr-comment">
+                    <!--comment-list--><!--{{{-->
+                      <box:page_comments>
+                        <view:page_comments> <!--{{{-->
+                          <!--comment-send--><!--{{{-->
+                            <div class="comment-send">
+                              <!--row-first--><!--{{{-->
+                                <div class="comment-send-first">
+                                  <img src="(*comment_avatar*)" alt="(*comment_fullname*)">
+                                  <a href="(*comment_website*)" target="_blank" style="background-color: white;padding: 0 1em;">
+                                    (*comment_fullname*)
+                                  </a>
+                                </div>
+                              <!--row-first--><!--}}}-->
+                              <!--row-second--><!--{{{-->
+                                <div class="comment-send-second">
+                                  (*comment_body*)
+                                </div>
+                              <!--row-second--><!--}}}-->
+                              <!--row-third--><!--{{{-->
+                                <div class="comment-send-third">
+                                  (*comment_date format="%e %B %y"*)
+                                </div>
+                              <!--row-third--><!--}}}-->
+                            </div>
+                          <!--comment-send--><!--}}}-->
+                          <!--comment-reply--><!--{{{-->
+                          <check:if comment_reply>
+                            <div class="comment-send" style="margin-bottom: 5em;">
+                              <!--row-first--><!--{{{-->
+                                <div class="comment-send-first" style="text-align: center; margin-top: -25px; color: white;background-color: #ea7986;border-radius: 1em;">
+                                  پاسخ
+                                </div>
+                              <!--row-first--><!--}}}-->
+                              <!--row-second--><!--{{{-->
+                                <div class="comment-send-second">
+                                  (*comment_reply*)
+                                </div>
+                              <!--row-second--><!--}}}-->
+                              <!--row-third--><!--{{{-->
+                                <div class="comment-send-third">
+                                  (*comment_reply_date format="%e %B %y"*)
+                                </div>
+                              <!--row-third--><!--}}}-->
+                            </div>
+                          </check:if>
+                          <!--comment-reply--><!--}}}-->
+                        </view:page_comments> <!--}}}-->
+                      </box:page_comments>
+                    </check:if>
+                    <!--comment-list--><!--}}}-->
+                    <!--comment-send--><!--{{{-->
+                    <check:if page_has_send_comment>
+                      (*comment_add_form*)
+                    <!--comment-list--><!--}}}-->
+                  </section>
+                  </check:if>
+                  <!--comment-section--><!--}}}-->
+                </div>
+              </article>
+            </box:page_detail> <!--}}}-->
+            <box:pagination> <!--{{{-->
+              <div class="nextandprevious">
+                <check:if page_prev>
+                  <a href="(*page_prev*)" class="previouslink">previous page</a>
+                </check:if>
+                <check:if page_next>
+                  <a href="(*page_next*)" class="nextlink">next page</a>
+                </check:if>
+                <div class="clear"></div>
+              </div>
+            </box:pagination> <!--}}}-->
+          </div> <!--}}}-->
+          <div class="partLeft"> <!--{{{-->
+            <div class="box imgBox"> <!--{{{-->
+              <div class="img">
+                <span>
+                  (*blog_title*)
+                </span>
+                <img
+                  src="http://s6.picofile.com/file/8392484292/flwer.jpg"
+                  alt="cherry blassom"
+                />
+              </div>
+            </div> <!--}}}-->
+              <div class="box text-center"> <!--{{{-->
+                <h6>about us <i class="fa fa-info"></i></h6>
+                <img src="(*blog_image*)" style="margin-bottom: 10px;"/>
+                <br />
+                <p></p>
+                <div style="text-align: justify;">
+                  (*blog_description*)
+                </div>
+              </div> <!--}}}-->
+              <box:menu><!--{{{-->
+              <div class="box">
+                <h6>Pages <i class="fa fa-tag"></i></h6>
+                <ul class="tagCloud">
+                  <view:menu>
+                    <li>
+                      <a href="(*menu_item_link*)">
+                        (*menu_item_title*)
+                      </a>
+                    </li>
+                  </view:menu>
+                </ul>
+              </div>
+            </box:menu><!--}}}-->
+              <box:categories><!--{{{-->
+              <div class="box">
+                <h6>Categories <i class="fa fa-tag"></i></h6>
+                <ul class="tagCloud">
+                  <view:categories>
+                    <li>
+                      <a href="(*category_link*)">
+                        (*category_name*)
+                      </a>
+                    </li>
+                  </view:categories>
+                </ul>
+              </div>
+            </box:categories><!--}}}-->
+            <box:tag_cloud max="25"> <!--{{{-->
+              <div class="box">
+                <h6>tags <i class="fa fa-tag"></i></h6>
+                <ul class="tagCloud">
+                  <view:tag_cloud>
+                    <li>
+                      <a href="(*tag_link*)">
+                        (*tag_name*)
+                      </a>
+                    </li>
+                  </view:tag_cloud>
+                </ul>
+              </div>
+            </box:tag_cloud> <!--}}}-->
+            <box:ads> <!--{{{-->
+              <div class="box text-center">
+                <h6>ADS <i class="fa fa-star"></i></h6>
+                <view:ads>
+                  (*ad*)
+                </view:ads>
+              </div>
+            </box:ads> <!--}}}-->
+          </div> <!--}}}-->
+        </div> <!--}}}-->
+      </div>
+    </div>
+    <footer class="text-center"> <!--{{{-->
+      <div class="wrap">
+        <span>
+         قدرت گرفته از
+         <a href="https://blog.ir" target="_blank"> بلاگ</a>
+         <a href="https://bayan.ir" target="_blank"> بیان</a>
+        </span>
+        <span class="copyright">
+          طراحی از
+         <a href="http://blacktheme.ir" target="_blank"> بلک‌تم، </a>
+         تغییر و ترجمه از
+         <a href="https://asemanam.blog.ir" target="_blank"> محمدرضا ...</a>
+        </span>
+      </div>
+    </footer> <!--}}}-->
+  </body> <!--}}}-->
+</html>
