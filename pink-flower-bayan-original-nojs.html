@@ -143,10 +143,19 @@
 
                   <div class="postComment"> <!--{{{-->
                       <div>
-                        <span dir="rtl">
+                        <span>
                           <a href="(*post_link*)#comments">(*post_comment_count*) CM
-                            <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #ea7986;margin-bottom: -.5em;width:1rem;"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
                           </a>
+                          <box:post_rating>
+                          <span class="rate-box (*user_rated*)">
+                            <span class="rate-button-box rate-up (*user_rated_up*)" style="float: left; margin-right: .2em; color: #ea7986;">
+                              <a class="rate-button" href="(*rate_up_link*)" rel="nofollow" title="like">
+                              <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #ea7986;margin-bottom: -.5em;width:1rem;"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
+                                (*up_rates*)
+                              </a>
+                            </span>
+                          </span>
+                          </box:post_rating>
                         </span>
                       </div>
                   </div> <!--}}}-->
@@ -184,16 +193,23 @@
                     </div>
                   </box:post_tags> <!--}}}-->
                   <a name="comments"></a>
-                  <div class="postComment" style="margin-bottom: 4em;"> <!--{{{-->
-                      <check:if post_has_comments_section>
+                  <div class="postComment"> <!--{{{-->
                       <div>
-                        <span dir="rtl">
-                            <a href="(*post_link*)#comments">(*post_comment_count*) CM
-                            <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #ea7986;margin-bottom: -.5em;width:1rem;"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
-                            </a>
+                        <span>
+                          <a href="(*post_link*)#comments">(*post_comment_count*) CM
+                          </a>
+                          <box:post_rating>
+                          <span class="rate-box (*user_rated*)">
+                            <span class="rate-button-box rate-up (*user_rated_up*)" style="float: left; margin-right: .2em; color: #ea7986;">
+                              <a class="rate-button" href="(*rate_up_link*)" rel="nofollow" title="like">
+                              <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #ea7986;margin-bottom: -.5em;width:1rem;"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
+                                (*up_rates*)
+                              </a>
+                            </span>
+                          </span>
+                          </box:post_rating>
                         </span>
                       </div>
-                      </check:if>
                   </div> <!--}}}-->
                   <!--comment-section--><!--{{{-->
                   <check:if post_has_comments_section>
