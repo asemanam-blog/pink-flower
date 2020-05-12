@@ -36,24 +36,6 @@
                   <li><a href="(*rss_link*)">rss</a></li>
                 </ul>
               </li>
-              <box:daily_links> <!--{{{-->
-                <li>
-                  <a href="javascript:void(0);">link</a>
-                  <ul>
-                    <view:daily_links>
-                      <li>
-                        <a
-                          href="(*link_url*)"
-                          target="_blank"
-                          title="(*link_alt*)"
-                        >
-                          (*link_name*)
-                        </a>
-                      </li>
-                    </view:daily_links>
-                  </ul>
-                </li>
-              </box:daily_links> <!--}}}-->
               <box:categories> <!--{{{-->
                 <li>
                   <a href="javascript:void(0)">category</a>
@@ -83,7 +65,6 @@
                 </li>
               </box:archive> <!--}}}-->
               <box:authors> <!--{{{-->
-                <li></li>
                 <li>
                   <a href="javascript:void(0)">author</a>
                   <ul>
@@ -97,29 +78,8 @@
                   </ul>
                 </li>
               </box:authors> <!--}}}-->
-              <box:links> <!--{{{-->
-                <li>
-                  <a href="javascript:void(0)">friend</a>
-                  <ul>
-                    <view:links>
-                      <li>
-                        <a href="(*link_url*)" target="_blank" title="(*link_alt*)">
-                          (*link_name*)
-                        </a>
-                      </li>
-                    </view:links>
-                  </ul>
-                </li>
-              </box:links> <!--}}}-->
-              <li class="iconMenu">
-                <a href="javascript:void(0)"
-                  ><span class="menuM">menu</span
-                  ><span class="menuC">close</span></a
-                >
-              </li>
             </ul>
           </div>
-          <div class="appendMenu"></div>
         </nav> <!--}}}-->
         <div class="partWrap"> <!--{{{-->
           <div class="partRight"> <!--{{{-->
@@ -127,7 +87,7 @@
               <article>
                 <view:post_list>
                 <div class="post">
-                  <h2>
+                  <h2 style="margin-bottom: 0;">
                     <a href="(*post_link*)">
                       (*post_title*)
                     </a>
@@ -148,9 +108,9 @@
                           </a>
                           <box:post_rating>
                           <span class="rate-box (*user_rated*)">
-                            <span class="rate-button-box rate-up (*user_rated_up*)" style="float: left; margin-right: .2em; color: #ea7986;">
+                            <span class="rate-button-box rate-up (*user_rated_up*)" style="float: left; margin-right: .2em;">
                               <a class="rate-button" href="(*rate_up_link*)" rel="nofollow" title="like">
-                              <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #ea7986;margin-bottom: -.5em;width:1rem;"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
+                              <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
                                 (*up_rates*)
                               </a>
                             </span>
@@ -166,7 +126,7 @@
             <box:post_detail> <!--{{{-->
               <article>
                 <div class="post">
-                  <h2>
+                  <h2 style="margin-bottom: 0;">
                     <a href="(*post_link*)">
                       (*post_title*)
                     </a>
@@ -200,9 +160,9 @@
                           </a>
                           <box:post_rating>
                           <span class="rate-box (*user_rated*)">
-                            <span class="rate-button-box rate-up (*user_rated_up*)" style="float: left; margin-right: .2em; color: #ea7986;">
+                            <span class="rate-button-box rate-up (*user_rated_up*)" style="float: left; margin-right: .2em;">
                               <a class="rate-button" href="(*rate_up_link*)" rel="nofollow" title="like">
-                              <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #ea7986;margin-bottom: -.5em;width:1rem;"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
+                              <svg xmlns="http://www.w5.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
                                 (*up_rates*)
                               </a>
                             </span>
@@ -220,7 +180,7 @@
                           <!--comment-send--><!--{{{-->
                             <div class="comment-send">
                               <!--row-first--><!--{{{-->
-                                <div class="comment-send-first">
+                                <div class="comment-send-first-send">
                                   <img src="(*comment_avatar*)" alt="(*comment_fullname*)">
                                   <a href="(*comment_website*)" target="_blank" style="background-color: white;padding: 0 1em;">
                                     (*comment_fullname*)
@@ -243,7 +203,7 @@
                           <check:if comment_reply>
                             <div class="comment-send" style="margin-bottom: 5em;">
                               <!--row-first--><!--{{{-->
-                                <div class="comment-send-first" style="text-align: center; margin-top: -25px; color: white;background-color: #ea7986;border-radius: 1em;">
+                                <div class="comment-send-first">
                                   پاسخ
                                 </div>
                               <!--row-first--><!--}}}-->
@@ -277,7 +237,7 @@
             <box:page_detail> <!--{{{-->
               <article>
                 <div class="post">
-                  <h2>
+                  <h2 style="margin-bottom: 0;">
                     <a href="(*page_link*)">
                       (*page_title*)
                     </a>
@@ -306,7 +266,7 @@
                           <!--comment-send--><!--{{{-->
                             <div class="comment-send">
                               <!--row-first--><!--{{{-->
-                                <div class="comment-send-first">
+                                <div class="comment-send-first-send">
                                   <img src="(*comment_avatar*)" alt="(*comment_fullname*)">
                                   <a href="(*comment_website*)" target="_blank" style="background-color: white;padding: 0 1em;">
                                     (*comment_fullname*)
@@ -329,7 +289,7 @@
                           <check:if comment_reply>
                             <div class="comment-send" style="margin-bottom: 5em;">
                               <!--row-first--><!--{{{-->
-                                <div class="comment-send-first" style="text-align: center; margin-top: -25px; color: white;background-color: #ea7986;border-radius: 1em;">
+                              <div class="comment-send-first">
                                   پاسخ
                                 </div>
                               <!--row-first--><!--}}}-->
@@ -378,10 +338,7 @@
                 <span>
                   (*blog_title*)
                 </span>
-                <img
-                  src="http://s6.picofile.com/file/8392484292/flwer.jpg"
-                  alt="cherry blassom"
-                />
+                <div class="cover"></div>
               </div>
             </div> <!--}}}-->
               <div class="box text-center"> <!--{{{-->
@@ -393,6 +350,27 @@
                   (*blog_description*)
                 </div>
               </div> <!--}}}-->
+                    <!--followBox--><!--{{{-->
+                      <check:if follow_box>
+                        <div class="bayan-follow front-image-list" style="margin-bottom: 50px;">
+                          (*follow_box*)
+                        </div>
+                      </check:if>
+                    <!--followBox--><!--}}}-->
+                    <!--Authors--><!--{{{-->
+                        <box:authors>
+                        <div class="box text-center">
+                        <h6>Authors</h6>
+                          <view:authors>
+                            <div class="d-block py-1">
+                              <a href="(*author_link*)">
+                                <h6 class="text-bold d-block text-center" style="font-size: .7rem;">(*author_name*)</h6>
+                              </a>
+                            </div>
+                          </view:authors>
+                        </div>
+                        </box:authors>
+                    <!--recent-posts--><!--}}}-->
               <box:menu><!--{{{-->
               <div class="box">
                 <h6>Pages <i class="fa fa-tag"></i></h6>
@@ -435,6 +413,35 @@
                 </ul>
               </div>
             </box:tag_cloud> <!--}}}-->
+                    <!--Stats--><!--{{{-->
+                        <!--<box:stat>-->
+                        <!--<div class="box text-center">-->
+                        <!--<h6>Stats</h6>-->
+                          <!--<view:stat>-->
+                            <!--<div class="d-block py-1">-->
+                              <!--<h6 class="d-block text-center" style="font-size: .7rem;">(*stat_title*)</h6>-->
+                              <!--<h6 class="bold d-block text-center" style="font-size: .7rem;">(*stat_value*)</h6>-->
+                            <!--</div>-->
+                          <!--</view:stat>-->
+                        <!--</div>-->
+                        <!--</box:stat>-->
+                    <!--recent-posts--><!--}}}-->
+                    <!--Daily-links-box--><!--{{{-->
+                      <box:daily_links>
+                        <div class="box">
+                          <h6>Daily Links</h6>
+                          <ul class="tagCloud">
+                            <view:daily_links>
+                              <li>
+                                <a href="(*link_url*)" alt="(*link_alt*)">
+                                  (*link_name*)
+                                </a>
+                              </li>
+                            </view:daily_links>
+                          </ul>
+                        </div>
+                      </box:daily_links>
+                    <!--links-box--><!--}}}-->
             <box:ads> <!--{{{-->
               <div class="box text-center">
                 <h6>ADS <i class="fa fa-star"></i></h6>
@@ -443,6 +450,80 @@
                 </view:ads>
               </div>
             </box:ads> <!--}}}-->
+                    <!--popular-posts--><!--{{{-->
+                        <box:popular_posts>
+                        <div class="box text-center">
+                        <h6>Popular Posts</h6>
+                          <view:popular_posts max="5">
+                            <div class="d-block py-1">
+                              <a href="(*post_link*)">
+                                <h6 class="text-bold b-dotted d-block text-center" style="font-size: .7rem;">(*post_title*)</h6>
+                              </a>
+                            </div>
+                          </view:popular_posts>
+                        </div>
+                        </box:popular_posts>
+                    <!--recent-posts--><!--}}}-->
+                    <!--most-visited-posts--><!--{{{-->
+                        <box:most_visited_posts>
+                        <div class="box text-center">
+                        <h6>Most Visited</h6>
+                          <view:most_visited_posts max="5">
+                            <div class="d-block py-1">
+                              <a href="(*post_link*)">
+                                <h6 class="text-bold b-dotted d-block text-center" style="font-size: .7rem;">(*post_title*)</h6>
+                              </a>
+                            </div>
+                          </view:most_visited_posts>
+                        </div>
+                        </box:most_visited_posts>
+                    <!--recent-posts--><!--}}}-->
+                    <!--most-commented-posts--><!--{{{-->
+                        <box:most_commented_posts>
+                        <div class="box text-center">
+                        <h6>Most Commented</h6>
+                          <view:most_commented_posts max="5">
+                            <div class="d-block py-1">
+                              <a href="(*post_link*)">
+                                <h6 class="text-bold b-dotted text-center d-block" style="font-size: .7rem;">(*post_title*)</h6>
+                              </a>
+                            </div>
+                          </view:most_commented_posts>
+                        </div>
+                        </box:most_commented_posts>
+                    <!--recent-posts--><!--}}}-->
+                    <!--archive-box--><!--{{{-->
+                      <box:archive>
+                        <div class="box">
+                          <h6>Archive</h6>
+                          <ul class="tagCloud">
+                            <view:archive>
+                              <li>
+                                <a href="(*link_url*)">
+                                  (*link_name*)
+                                </a>
+                              </li>
+                            </view:archive>
+                          </ul>
+                        </div>
+                      </box:archive>
+                    <!--archive-box--><!--}}}-->
+                    <!--links-box--><!--{{{-->
+                      <box:links>
+                        <div class="box">
+                          <h6>Links</h6>
+                          <ul class="tagCloud">
+                            <view:links>
+                              <li>
+                                <a href="(*link_url*)" alt="(*link_alt*)">
+                                  (*link_name*)
+                                </a>
+                              </li>
+                            </view:links>
+                          </ul>
+                        </div>
+                      </box:links>
+                    <!--links-box--><!--}}}-->
           </div> <!--}}}-->
         </div> <!--}}}-->
       </div>

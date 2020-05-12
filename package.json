@@ -1,0 +1,27 @@
+{
+  "name": "pink-flower",
+  "version": "1.0.0",
+  "description": "A simple blogging theme for bayan",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asemanam-blog/pink-flower.git"
+  },
+  "keywords": [
+    "blog",
+    "theme"
+  ],
+  "author": "Mohammadreza Moghimi and blacktheme",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/asemanam-blog/pink-flower/issues"
+  },
+  "homepage": "https://github.com/asemanam-blog/pink-flower#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-compass": "^2.1.0"
+  }
+}
