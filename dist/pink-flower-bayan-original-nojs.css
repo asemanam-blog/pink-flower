@@ -26,7 +26,7 @@ body {
   /*line-height: 1.7em;*/
   overflow-x: hidden;
   background-size: cover;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.9em;
 }
 
@@ -794,11 +794,24 @@ p img {
 }
 
 .cover {
-  background: url("http://s6.picofile.com/file/8392484292/flwer.jpg");
+  background: url("http://s10.picofile.com/file/8396278234/flwer.jpg");
   background-size: auto;
   background-size: contain;
   height: 193px;
   background-repeat: no-repeat;
+}
+
+.show-md {
+  display: none !important;
+}
+
+.nav {
+  border: 1px solid #decdc9;
+}
+
+.nav ul li {
+  text-align: center;
+  padding: .5em 1em;
 }
 
 /*mimr-added-styles*/
@@ -823,13 +836,17 @@ p img {
 }
 @media screen and (max-width: 768px) {
   .partWrap {
-    padding-top: unset;
     padding-bottom: unset;
+    padding-top: 2em;
   }
 
   .blackthemeMainBox {
     padding: 15px;
     border: 0;
+  }
+
+  .show-md {
+    display: block !important;
   }
 
   nav {

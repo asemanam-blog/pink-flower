@@ -741,6 +741,19 @@ p img {
   background-repeat: no-repeat;
 }
 
+.show-md {
+  display: none !important;
+}
+
+.nav {
+  border: 1px solid $theme-tcolor;
+}
+
+.nav ul li {
+  text-align: center;
+  padding: .5em 1em;
+}
+
 /*mimr-added-styles*/
 
 @media screen and (max-width: 992px) {
@@ -763,17 +776,23 @@ p img {
 @media screen and (max-width: 768px) {
 
   .partWrap {
-    padding-top: unset;
     padding-bottom: unset;
+    padding-top: 2em;
   }
 
   .blackthemeMainBox {
     padding: 15px;
     border: 0;
   }
+
+  .show-md {
+    display: block !important;
+  }
+
   nav {
     display: none;
   }
+
   .appendMenu {
     border-top: 1px solid #ccb2ac;
     margin-top: 15px;
