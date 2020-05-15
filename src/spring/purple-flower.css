@@ -231,7 +231,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 45px 0; }
+  padding: 20px 0; }
 
 .partWrap .partRight {
   width: 100%;
