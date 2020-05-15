@@ -707,8 +707,7 @@ p img {
     position: relative; } }
 @media screen and (max-width: 768px) {
   .partWrap {
-    padding-bottom: unset;
-    padding-top: 2em; }
+    padding-bottom: unset; }
 
   .blackthemeMainBox {
     padding: 15px;
