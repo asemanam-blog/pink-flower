@@ -354,7 +354,8 @@
                 <div class="cover"></div>
               </div>
             </div> <!--}}}-->
-              <div class="box text-center"> <!--{{{-->
+            <check:if blog_description><!--{{{-->
+              <div class="box text-center"> 
                 <h6>about us <i class="fa fa-info"></i></h6>
                 <check:if blog_image>
                   <img src="(*blog_image*)" style="margin-bottom: 10px;"/>
@@ -364,7 +365,8 @@
                 <div style="text-align: justify;">
                   (*blog_description*)
                 </div>
-              </div> <!--}}}-->
+              </div> 
+            </check:if><!--}}}-->
                     <!--followBox--><!--{{{-->
                       <check:if follow_box>
                         <div class="bayan-follow front-image-list" style="margin-bottom: 50px;">
