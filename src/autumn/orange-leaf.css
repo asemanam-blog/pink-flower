@@ -441,6 +441,9 @@ footer .wrap a {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.5); }
 
 /*mimr-added-styles*/
+pre {
+  white-space: pre-line; }
+
 .toast {
   background: rgba(48, 55, 66, 0.95);
   border: .05rem solid #303742;
