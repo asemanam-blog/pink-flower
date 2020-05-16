@@ -356,9 +356,11 @@
             </div> <!--}}}-->
               <div class="box text-center"> <!--{{{-->
                 <h6>about us <i class="fa fa-info"></i></h6>
-                <img src="(*blog_image*)" style="margin-bottom: 10px;"/>
-                <br />
-                <p></p>
+                <check:if blog_image>
+                  <img src="(*blog_image*)" style="margin-bottom: 10px;"/>
+                  <br />
+                  <p></p>
+                </check:if>
                 <div style="text-align: justify;">
                   (*blog_description*)
                 </div>
