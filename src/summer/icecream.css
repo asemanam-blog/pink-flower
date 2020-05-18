@@ -747,6 +747,14 @@ p img {
   .nextandprevious .previouslink {
     float: none;
     display: block;
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .partWrap .partLeft {
+    max-width: unset; }
+
+  .partLeft .imgBox {
+    display: block;
+    max-width: 300px;
+    margin: 1em auto; } }
 
 /*# sourceMappingURL=icecream.css.map */
