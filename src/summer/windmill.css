@@ -755,6 +755,7 @@ p img {
   .partLeft .imgBox {
     display: block;
     max-width: 300px;
-    margin: 1em auto; } }
+    margin: 1em auto;
+    margin-bottom: 50px; } }
 
 /*# sourceMappingURL=windmill.css.map */
