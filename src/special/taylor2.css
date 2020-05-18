@@ -505,7 +505,7 @@ pre {
 
 .followThis {
   background: #fff;
-  color: #1c0e06; }
+  color: #1c0e06 !important; }
 
 h1,
 h2,
