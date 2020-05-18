@@ -121,8 +121,9 @@
                   <div class="postcontent">
                     (*post_summary*)
                   </div>
-                  <a href="(*post_link*)" class="continue">continue</a>
-
+                  <check:if post_has_read_more>
+                    <a href="(*post_link*)" class="continue">continue</a>
+                  </check:if>
                   <div class="postComment"> <!--{{{-->
                       <div>
                         <span>
