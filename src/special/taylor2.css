@@ -441,6 +441,9 @@ footer .wrap a {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.5); }
 
 /*mimr-added-styles*/
+select {
+  color: #1c0e06 !important; }
+
 .comment-send-first-send a {
   background-color: #1c0e06 !important; }
 
